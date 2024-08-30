@@ -75,7 +75,21 @@ body{
 }
 
   /* shared style  */
+
+  .section-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0D1321;
+
+  }
+
+  .section-description{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+  }
   
+
+
 .btn-primary-container{
   color: rgb(13, 19, 33);
   font-family: inter;
@@ -162,6 +176,8 @@ opacity: 0.7;
 }
 
 
+
+
 /* 2 no page start */
 .Development-section-container{
   max-width: 1780px;
@@ -185,7 +201,7 @@ opacity: 0.7;
   justify-content: flex-start;
   align-items: center;
 
-.coding-para{
+.coding-para {
   display:flex;
   border: 2px solid red;
   width: 850px;
@@ -194,7 +210,6 @@ opacity: 0.7;
   margin-top: 48px;
   border-radius: 16px;
   background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-
 }
 .h1{
   color: rgba(13, 19, 33, 0.7);
@@ -326,7 +341,7 @@ padding: 48px;
 
 
 
-.change-content button{
+.change-content-button {
   width: 149px;
   height: 48px;
   display: flex;
@@ -342,7 +357,6 @@ padding: 48px;
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
-
   color: rgb(13, 19, 33);
   font-family: inter;
   font-size: 18px;
@@ -350,9 +364,8 @@ padding: 48px;
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
-
 }
-.last-pic{
+.last-pic {
   width: 240px;
   height: 240px;
   display:grid;
@@ -360,8 +373,21 @@ padding: 48px;
   height: 217.01px;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end; 
- }
+  align-items: flex-end;
 
 }
 
+/* main style */
+main {
+max-width: 1140px;
+border: 2px solid red;
+}
+
+
+/* inspirtion style  */
+
+.inspirtion{
+
+
+
+}
