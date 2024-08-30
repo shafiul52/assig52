@@ -426,9 +426,14 @@ padding: 48px;
   padding: 32px;
   margin-bottom: 149px;
   /* border: 2px solid red; */
-
-
-
+}
+/*  target style  */
+.target{
+  width: 1140px;
+  height: 463px;
+  border: 2px solid  red;
+  margin: 0 auto;
+  text-align: center;
 
 }
 
